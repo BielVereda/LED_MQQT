@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle MQTT</title>
+    
+    <!-- Importação do MQTT.js via CDN -->
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+<body>
+
+    <div class="card">
+        <h2>Controle do Dispositivo</h2>
+        
+        <!-- Exibição de Status -->
+        <p>Status: <span id="status" class="status desconectado">Desconectado</span></p>
+
+        <!-- Botões de Ação -->
+        <div class="btn-container">
+            <button id="btnLigar" class="btn-ligar" onclick="enviarComando('LIGAR')" disabled>LIGAR</button>
+            <button id="btnDesligar" class="btn-desligar" onclick="enviarComando('DESLIGAR')" disabled>DESLIGAR</button>
+        </div>
+
+        <!-- Caixas de Logs -->
+        <div id="log">Aguardando conexão...<br></div>
+    </div>
+
+    <script src="./js/funcoes.js"></script>
+</body>
+</html>

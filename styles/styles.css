@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+.status {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.status.conectado {
+    color: #28a745;
+}
+
+.status.desconectado {
+    color: #dc3545;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:disabled {
+    background-color: #cccccc !important;
+    cursor: not-allowed;
+}
+
+.btn-ligar {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-ligar:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+.btn-desligar {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-desligar:hover:not(:disabled) {
+    background-color: #c82333;
+}
+
+#log {
+    font-family: monospace;
+    font-size: 12px;
+    background: #1e1e1e;
+    color: #00ff00;
+    padding: 10px;
+    border-radius: 5px;
+    height: 120px;
+    overflow-y: auto;
+    text-align: left;
+}
