@@ -1,12 +1,47 @@
 # Projeto: Controle de LED via MQTT com Arduino e Site
 
 ## 👥 Integrantes do Grupo
-- BielVereda  
-- Francisco-Alamino-Neto  
-- GabrielLima1534  
-- GoBrazill  
-- RodrigoJPSilva  
-- srjuninn  
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/BielVereda">
+        <img src="https://wsrv.nl/?url=github.com/BielVereda.png&w=200&h=200&fit=cover&mask=circle" width="90">
+      </a><br>
+      <sub><b>BielVereda</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Francisco-Alamino-Neto">
+        <img src="https://wsrv.nl/?url=github.com/Francisco-Alamino-Neto.png&w=200&h=200&fit=cover&mask=circle" width="90">
+      </a><br>
+      <sub><b>Francisco-Alamino-Neto</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/GabrielLima1534">
+        <img src="https://wsrv.nl/?url=github.com/GabrielLima1534.png&w=200&h=200&fit=cover&mask=circle" width="90">
+      </a><br>
+      <sub><b>GabrielLima1534</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/GoBrazill">
+        <img src="https://wsrv.nl/?url=github.com/GoBrazill.png&w=200&h=200&fit=cover&mask=circle" width="90">
+      </a><br>
+      <sub><b>GoBrazill</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/RodrigoJPSilva">
+        <img src="https://wsrv.nl/?url=github.com/RodrigoJPSilva.png&w=200&h=200&fit=cover&mask=circle" width="90">
+      </a><br>
+      <sub><b>RodrigoJPSilva</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/srjuninn">
+        <img src="https://wsrv.nl/?url=github.com/srjuninn.png&w=200&h=200&fit=cover&mask=circle" width="90">
+      </a><br>
+      <sub><b>srjuninn</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -60,12 +95,32 @@ No nosso projeto:
 
 ## 📸 Fotos do protótipo
 
-### Quais Materiais Utilizamos
-![Arduino UNO](./images/arduino_uno.png)
-![LED](./images/led.png)
-![Jumpers](./images/jumpers.png)
-![Protoboard](./images/protoboard.png)
-![Ethernet Shield W5100](./images/ethernet_shield.png)
+### Quais Materiais Utilizamos?
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./images/arduino_uno.png" height="120"><br>
+      Arduino UNO
+    </td>
+    <td align="center">
+      <img src="./images/led.png" height="120"><br>
+      LED
+    </td>
+    <td align="center">
+      <img src="./images/jumpers.png" height="120"><br>
+      Jumpers
+    </td>
+    <td align="center">
+      <img src="./images/protoboard.png" height="120"><br>
+      Protoboard
+    </td>
+    <td align="center">
+      <img src="./images/ethernet_shield.png" height="120"><br>
+      Ethernet Shield W5100
+    </td>
+  </tr>
+</table>
 
 ### Configuração Mosquitto
 ![Configuração Mosquitto](./images/mosquitto_conf.jpg)
